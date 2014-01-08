@@ -21,6 +21,14 @@ PAGE_DIR = 'pages'
 ARTICLE_DIR = 'articles'
 ARTICLE_URL = ('articles/{slug}/')
 ARTICLE_SAVE_AS = ('articles/{slug}/index.html')
+PAGE_URL = '{slug}' 
+PAGE_SAVE_AS = '{slug}.html'
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = 'author/{slug}.html'
+CATEGORY_URL = 'category/{slug}'
+CATEGORY_SAVE_AS = 'category/{slug}.html'
+TAG_URL = 'tag/{slug}'
+TAG_SAVE_AS = 'tag/{slug}.html'
 
 # Theme.
 THEME = './theme/pure'
