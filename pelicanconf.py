@@ -6,7 +6,7 @@ AUTHOR = u'Swapan'
 SITENAME = u'Swapan Rajdev'
 SITEURL = ''
 
-TIMEZONE = 'America/Pacific'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
