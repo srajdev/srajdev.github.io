@@ -5,9 +5,8 @@ Hello World!
 :tags: test, awesome
 :category: yeah
 :slug: hello-world
-:author: Swapan Rajdev 
-:about_author: Engineer
 :summary: Lets test this bad boy
+:author_gravatar: https://scontent-a-sjc.xx.fbcdn.net/hphotos-frc1/379112_10101039224253080_712261483_n.jpg
 
 Hello World!
 

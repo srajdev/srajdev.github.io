@@ -9,7 +9,15 @@
                     <p class="links"><a href="{{ SITEURL }}/{{ link }}">{{ title }}</a></li>
                 {% endfor %}
                 {% for title, link in SOCIAL %}
-                    <p class="links"><a href="{{ link }}">{{ title }}</a></li>
+                    {% if title == 'Twitter' %}
+                        <p class="links" style="display: inline;"><a href="{{ link }}"><img src="/images/twitter.png" style="width:30px; height: 30px;"/></a></li>
+                    {% else %}
+                        {% if title == "LinkedIn" %}
+                            <p class="links" style="display: inline; padding-left: 5px;"><a href="{{ link }}"><img src="/images/linkedin.png" style="width:32px; height: 32px;"/></a></li>
+                        {% else %}
+                            <p class="links"><a href="{{ link }}">{{ title }}</a></li>
+                        {% endif %}
+                    {% endif %}
                 {% endfor %}
                 </hgroup>
             </header>
